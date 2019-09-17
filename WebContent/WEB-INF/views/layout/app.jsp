@@ -17,7 +17,7 @@
             <div id="content">      
                  ${param.content}
             </div>
-            <div id="fopter">
+            <div id="footer">
                  by Taro Kirameki.
              </div>
         </div>
