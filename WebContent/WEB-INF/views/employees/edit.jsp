@@ -11,8 +11,8 @@
                 </form>
                 
                 <p><a href="#" onclick="confilmDestroy();">この従業員情報を削除する</a></p>
-                <form method="POST" action="<c:url value='/employee/destroy' />">
-                  <input type="hidden" name ="_token" value="${_token }" />                                                                                        
+                <form method="POST" action="<c:url value='/employees/destroy' />">
+                  <input type="hidden" name ="_token" value="${_token}" />                                                                                        
                 </form>
                 
                 <script>
@@ -29,7 +29,7 @@
                 </c:otherwise>
                 </c:choose>
                 
-                <p><a href= "<c:url value='/employee/index' />">一覧に戻る</a></p>
+                <p><a href= "<c:url value='/employees/index' />">一覧に戻る</a></p>
      
     </c:param> 
  </c:import>
